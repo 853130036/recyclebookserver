@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url : jdbc:mysql://118.24.94.230:3306/recyclebookstore?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    username : root
+    password : root
+    driverClassName : com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+    show-sql: true
